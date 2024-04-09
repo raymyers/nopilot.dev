@@ -1,0 +1,40 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+ @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+ /* https://fonts.google.com/selection/embed */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #6b83e5;
+  --ifm-color-primary-dark: #4161d1;
+  --ifm-color-primary-darker: #3051ba;
+  --ifm-color-primary-darkest: #2041a3;
+  --ifm-color-primary-light: #6381f1;
+  --ifm-color-primary-lighter: #7491fa;
+  --ifm-color-primary-lightest: #85a1ff;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-font-family-base: 'Manrope', san-serif;
+}
+
+.hero__title {
+  font-weight: 800;
+}
+
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #5f8fb9;
+  --ifm-color-primary-dark: #4e80a5;
+  --ifm-color-primary-darker: #42749b;
+  --ifm-color-primary-darkest: #37698f;
+  --ifm-color-primary-light: #6aa1c1;
+  --ifm-color-primary-lighter: #7cb2cc;
+  --ifm-color-primary-lightest: #8ec3d6;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
