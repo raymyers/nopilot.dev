@@ -17,6 +17,7 @@
   --ifm-color-primary-light: #6381f1;
   --ifm-color-primary-lighter: #7491fa;
   --ifm-color-primary-lightest: #85a1ff;
+  /* --ifm-navbar-height: 4.75rem; */
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
   --ifm-font-family-base: 'Manrope', san-serif;
@@ -26,6 +27,9 @@
   font-weight: 800;
 }
 
+:root .heroBanner_src-pages-index-module {
+  padding: 1.5rem 0;
+}
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
