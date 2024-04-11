@@ -27,7 +27,7 @@
   font-weight: 800;
 }
 
-:root .heroBanner_src-pages-index-module {
+.hero.hero--primary {
   padding: 0.5rem 0;
 }
 
