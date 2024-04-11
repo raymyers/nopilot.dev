@@ -14,8 +14,9 @@ title: Leaderboards
 | Rank | Agent                | Score  | Score (lite) | Status            | Group        | License                 |
 | ---- | -------------------- | ------ | ------------ | ----------------- | ------------ | ----------------------- |
 | 1    | [auto-code-rover](https://github.com/nus-apr/auto-code-rover)      | -  | 22.3%            | Reported          | APR@NUS      | GPL-3                   |
-| 2    | [SWE-agent](https://swe-agent.com/) + GPT 4    | 12.29% | 17%          | Official          | Proprietary  | MIT                     |
-| 3    | Devin                | 13.48% | -            | Reported, sample  | Cognition    | Proprietary |
+| 2    | Devin                | 13.48% | -            | Reported (sample)  | Cognition    | Proprietary |
+| 3    | [SWE-agent](https://swe-agent.com/) + GPT 4    | 12.29% | 17%          | Official          | Princeton NLP  | MIT                     |
+
 
 
 SWE-bench scores come in "assisted" and "unassisted" versions. "Assisted" means the agent is told which files need to be modified by the "oracle". There is usually a large difference between these scores, highlighting that navigating the codebase is a key part of the problem.
