@@ -5,10 +5,11 @@ title: Leaderboards
 # Leaderboards
 
 ## SWE-bench
-**The gold standard**. Released in September 2023 by Princeton NLP, SWE-bench is the most widely accepted measure of an agent's ability to solve tasks in a realistic codebase.
+**The gold standard**. Released in September 2023 by Princeton NLP, SWE-bench is the most widely accepted measure of an agent's ability to solve tasks in a realistic codebase. It was constructed from GitHub Pull Requests from real Open Source respositories, with unit tests verifying the change. To pass, the agent must effectively recreate that Pull Request.
 
+[SWE-bench](https://www.swebench.com) publishes official results, the below includes results that have been credibly reported but not verified. 
 
-
+**Unassisted:**
 *Last checked: 2024-04-10*
 | Rank | Agent                | Score  | Score (lite) | Status            | Group        | License                 |
 | ---- | -------------------- | ------ | ------------ | ----------------- | ------------ | ----------------------- |
@@ -17,9 +18,10 @@ title: Leaderboards
 | 3    | Devin                | 13.48% | -            | Reported, sample  | Cognition    | Proprietary |
 
 
+SWE-bench scores come in "assisted" and "unassisted" versions. "Assisted" means the agent is told which files need to be modified by the "oracle". There is usually a large difference between these scores, highlighting that navigating the codebase is a key part of the problem.
 
+ML researcher [theblackcat102](https://github.com/theblackcat102) [reports](https://x.com/zraytam/status/1769523013501039070) that Claude 3 Opus reaches 11.07% assisted, hinting that the current GPT-4-based agent scores could be improved with Opus access (we got usage throttled attempting to verify). 
 
-An "unassisted" score means the agent is told which files need to be modified.
 
 ## LiveCodeBench
 
