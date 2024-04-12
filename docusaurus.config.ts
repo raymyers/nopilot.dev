@@ -72,6 +72,7 @@ const config: Config = {
         // },
         {to: '/blog', label: 'News', position: 'left'},
         {to: '/leaderboards', label: 'Leaderboards', position: 'left'},
+        {to: '/resources', label: 'Resources', position: 'left'},
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
@@ -107,8 +108,12 @@ const config: Config = {
             //   href: 'https://stackoverflow.com/questions/tagged/docusaurus',
             // },
             {
-              label: 'Discord',
-              href: 'https://discord.gg/KCfCZufpn3',
+              label: 'nopilot.dev Discord',
+              href: 'https://discord.gg/k3hzFm5ykA',
+            },
+            {
+              label: 'Resources',
+              href: '/resources',
             },
             // {
             //   label: 'Twitter',
