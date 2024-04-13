@@ -41,7 +41,7 @@ const FeatureList: FeatureItem[] = [
   },
 ];
 
-function Feature({title, Svg, description}: FeatureItem) {
+function Feature({ title, Svg, description }: FeatureItem) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
@@ -64,11 +64,11 @@ export default function HomepageFeatures(): JSX.Element {
             <Feature key={idx} {...props} />
           ))} */}
           <div className={clsx('col col--6')}>
-            <div className="text--center">
+            <div className="">
               {/* <Svg className={styles.featureSvg} role="img" /> */}
             </div>
-            <div className="text--center padding-horiz--md" style={{fontSize: "1.1em"}}>
-              <Heading as="h3">Why we are here</Heading>
+            <div className="padding-horiz--md" style={{ fontSize: "1.1em" }}>
+              <Heading as="h3" className="text--left">Why we are here</Heading>
               <p>
                 We believe it is in the best interest of the software industry, which the world depends on, to deem certain types of tools as essential infrastructure.
               </p>
@@ -90,29 +90,39 @@ export default function HomepageFeatures(): JSX.Element {
                 <li>The freedom to distribute modified copies, contributing to the community.</li>
               </ol>
               </p> */}
-             
+
               {/* <iframe width="560" height="315" src="https://www.youtube.com/embed/IM5oi2ycNIY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> */}
             </div>
           </div>
-          <div className={clsx('col col--6')}>
-            <div className="text--center padding-horiz--md">
-              <Heading as="h3">Timeline</Heading>
-            <ul style={{textAlign: 'left', fontSize: "1.4em"}}>
-              <li><strong>2022-03-29:</strong> GitHub Copilot general availability</li>
-              <li><strong>2023-03-14:</strong> GPT-4 Released</li>
-              <li><strong>2024-03-12:</strong> Devin autonomous coder announced<br/>13.8% SWE-bench sample</li>
-              <li><strong>2024-03-14:</strong> Claude 3 Opus released</li>
-              <li><strong>2024-03-16:</strong> "Can we beat Devin?" Discord reaches 1,000 members</li>
-              <li><strong>2024-03-26:</strong> OpenDevin reaches 5,000 GitHub stars</li>
-              <li><strong>2024-04-01:</strong> Princeton NLP matches Devin <br/>SWE-agent, 12.29% SWE-bench</li>
-              <li><strong>2024-04-08:</strong> <strong><u>Devin has been beaten</u></strong><br/>AutoCodeRover, National University of Singapore</li>
-            </ul>
+          <div className={clsx('col col--6')} style={{ fontSize: "1.2em" }}>
+            <div className="padding-horiz--md">
+              <Heading as="h3">Get started</Heading>
+              <ul>
+                <li><a href="https://mender.ai/docs/learn/ai-skills">Learn about AI</a></li>
+                <li><a href="https://www.gnu.org/philosophy/free-sw.en.html">Learn about Open Source</a></li>
+                <li><a href="https://www.davefarley.net/?p=352">Learn about Software Engineering</a></li>
+                <li><a href="/contributing">Join the effort!</a></li>
+              </ul>
+              <p>
+                With patience, the most tangled cord may be undone
+                <br />
+                - Lao Tzu
+              </p>
             </div>
           </div>
+
+        </div>
+        <div className="row">
+          {/* <div className={clsx('col col--6')}>
+            <div className="text--center padding-horiz--md">
+              <Heading as="h3">Timeline</Heading>
+              
+            </div>
+          </div> */}
           
         </div>
         {/* <iframe width="560" height="315" src="https://www.youtube.com/embed/IM5oi2ycNIY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> */}
-       
+
       </div>
     </section>
   );
