@@ -59,6 +59,13 @@ export default function HomepageFeatures(): JSX.Element {
   return (
     <section className={styles.features}>
       <div className="container">
+        {/* <div className="row">
+          <div className={clsx('col col--12')}>
+            <p>
+              We are witnessing the rise of Autonomous DevTools. Help ensure that change is for the better!
+            </p>
+          </div>
+        </div> */}
         <div className="row">
           {/* {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />
@@ -68,7 +75,7 @@ export default function HomepageFeatures(): JSX.Element {
               {/* <Svg className={styles.featureSvg} role="img" /> */}
             </div>
             <div className="padding-horiz--md" style={{ fontSize: "1.1em" }}>
-              <Heading as="h3" className="text--left">Why we are here</Heading>
+              <Heading as="h3" className="text--left">Mission: Shape the future of software in the open</Heading>
               <p>
                 We believe it is in the best interest of the software industry, which the world depends on, to deem certain types of tools as essential infrastructure.
               </p>

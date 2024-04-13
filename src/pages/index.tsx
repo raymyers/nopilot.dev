@@ -15,7 +15,7 @@ function HomepageHeader() {
         {/* <Heading as="h1" className="hero__title">
           {siteConfig.title}
         </Heading> */}
-        <img src="/img/nopilot-logo-simple.png" alt="nopilot.dev" style={{width: '350px', height: '350px'}} />
+        <img src="/img/nopilot-logo-simple.png" alt="nopilot.dev" style={{width: '300px', height: '300px'}} />
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         {/* <div className={styles.buttons}>
           <Link

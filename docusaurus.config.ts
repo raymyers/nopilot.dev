@@ -4,7 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'nopilot.dev',
-  tagline: 'Shape the future of software in the open',
+  tagline: 'Your front row seat to the rise of Autonomous DevTools',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here

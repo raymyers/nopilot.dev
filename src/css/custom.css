@@ -11,7 +11,7 @@
 /* You can override the default Infima variables here. */
 :root {
   --ifm-color-primary: #6b83e5;
-  --ifm-color-primary-dark: #4161d1;
+  --ifm-color-primary-dark: hsl(227, 61%, 54%);
   --ifm-color-primary-darker: #3051ba;
   --ifm-color-primary-darkest: #2041a3;
   --ifm-color-primary-light: #6381f1;
@@ -23,8 +23,18 @@
   --ifm-font-family-base: 'Manrope', san-serif;
 }
 
+.hero {
+  /* https://cssgradient.io/ */
+  /* background-image: url("/static/img/blue-min-ai-logo.svg"); */
+  background: var(--ifm-color-primary);
+  background: linear-gradient(90deg, var(--ifm-color-primary-darkest) 5%, var(--ifm-color-primary-light) 50%, var(--ifm-color-primary-darkest) 95%);
+}
+
 .hero__title {
   font-weight: 800;
+}
+p.hero__subtitle {
+  margin-bottom: 0.5rem;
 }
 
 .hero.hero--primary {
