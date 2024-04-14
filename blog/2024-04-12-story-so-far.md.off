@@ -1,0 +1,33 @@
+---
+slug: story so far
+title: The Story So Far
+authors: raymyers
+tags: []
+---
+## Devin has been beaten
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/pc55pfHpigs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+---
+My Mender.AI article: [We Can Beat Devin](https://mender.ai/blog/we-can-beat-devin) laid out two criteria by which members of the Open Source community are currently trying to "Beat Devin" in friendly competition.
+
+1. Reproduction of a similar UX (user experience)
+2. SWE-bench score of 13.8%
+
+It now appears that the second criteria has been met, even quicker than expected! SWE-agent by Princeton NLP and National University of Singapore
+## How did we get here
+### Timeline
+
+- **2022-03-29:** GitHub Copilot general availability
+- **2023-03-14:** GPT-4 Released
+- **2024-03-12:** Devin autonomous coder announced  
+  13.8% SWE-bench sample
+- **2024-03-14:** Claude 3 Opus released
+- **2024-03-16:** "Can we beat Devin?" Discord reaches 1,000 members
+- **2024-03-26:** OpenDevin reaches 5,000 GitHub stars
+- **2024-04-01:** Princeton NLP matches Devin  
+  SWE-agent, 12.29% SWE-bench
+- **2024-04-08:** **_Devin has been beaten_**  
+  AutoCodeRover, National University of Singapore
+
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/IM5oi2ycNIY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
