@@ -4,6 +4,8 @@ title: Leaderboards
 
 # Leaderboards
 
+There are many LLM benchmarks, but for the purposes of evaluating Autonomous DevTools we are most interested in testing and agent's ability to address a realistic task on an existing codebase.
+
 ## SWE-bench
 **The gold standard**. Released in September 2023 by Princeton NLP, SWE-bench is the most widely accepted measure of an agent's ability to solve tasks in a realistic codebase. It was constructed from GitHub Pull Requests from real Open Source respositories, with unit tests verifying the change. To pass, the agent must effectively recreate that Pull Request.
 
@@ -16,7 +18,6 @@ title: Leaderboards
 | 1    | [auto-code-rover](https://github.com/nus-apr/auto-code-rover)      | -  | 22.3%            | Reported          | APR@NUS      | GPL-3                   |
 | 2    | Devin                | 13.48% | -            | Reported (sample)  | Cognition    | Proprietary |
 | 3    | [SWE-agent](https://swe-agent.com/) + GPT 4    | 12.29% | 17%          | Official          | Princeton NLP  | MIT                     |
-
 
 
 SWE-bench scores come in "assisted" and "unassisted" versions. "Assisted" means the agent is told which files need to be modified by the "oracle". There is usually a large difference between these scores, highlighting that navigating the codebase is a key part of the problem.
@@ -40,8 +41,7 @@ Tests the strength of models across different coding sub-tasks.
 * Open Weight Leaders: [WizardCoder-33B-V1.1](https://huggingface.co/WizardLM/WizardCoder-33B-V1.1), [deepseek-coder-33b-instruct](https://huggingface.co/deepseek-ai/deepseek-coder-33b-instruct), [CodeLlama-34b-Instruct-hf](https://huggingface.co/codellama/CodeLlama-34b-Instruct-hf)
 
 
+## Other notable benchmarks
 
-
-## HumanEval
-
-[Link](https://paperswithcode.com/sota/code-generation-on-humaneval)
+* [HumanEval](https://paperswithcode.com/sota/code-generation-on-humaneval) by OpenAI
+* [Refactor Benchmark](https://github.com/paul-gauthier/refactor-benchmark) by Paul Gauthier, creator of Aider

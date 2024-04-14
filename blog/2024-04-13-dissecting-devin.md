@@ -51,6 +51,8 @@ Since we're being careful with terms today, these were not *job* interviews, the
 
 **Completely false**, as we can easily see by simply reading the Upwork task description in the demo video, which says, "Your deliverable will be detailed instructions on how to do it in an EC2 instance in AWS." Internet of Bugs provides an excellent [analysis](https://www.youtube.com/watch?v=tNmgmwEtoWE) showing that not only is the task incomplete, but the impressive debugging capabilities we saw in the video were the result of the agent **adding its own bugs** while doing unnecessary work because it ignored the instructions in the README. Sometimes they're too much like us!
 
+## The product itself
+
 > Devin is an autonomous agent that solves engineering tasks through the use of its own shell, code editor, and web browser.
 
 **True!**. In our view, this is the principal achievement. Although there were prior efforts, (GPT-Engineer, Aider, Smol-Developer, [etc...](https://github.com/e2b-dev/awesome-ai-agents)), this really brought it into focus - the smooth combination of these elements into a UX that anyone can look at and "get it". Once something like this is released and proven, tons of people will want one. We will buy them and we will build them.
