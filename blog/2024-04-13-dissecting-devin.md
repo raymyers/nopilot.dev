@@ -1,5 +1,5 @@
 ---
-slug: dissecting devin
+slug: dissecting-devin
 title: Dissecting Devin
 authors: raymyers
 tags: []
