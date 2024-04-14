@@ -70,7 +70,7 @@ It was a cool [thread](https://x.com/cognition_labs/status/1767548763134964000)!
 
 **There is currently no such thing as an "AI Software Engineer."**
 
-Software Engineer** was a term introduced by Margaret Hamilton for the Apollo Moon landing project in order to secure professional respect for her colleagues and to emphasize the disciplined practices they were developing. By consensus, the term's use in most of the industry remains somewhat aspirational, but with the world now running on software we have good reason to use it carefully.
+Software Engineer was a term introduced by Margaret Hamilton for the Apollo Moon landing project in order to secure professional respect for her colleagues and to emphasize the disciplined practices they were developing. By consensus, the term's use in most of the industry remains somewhat aspirational, but with the world now running on software we have good reason to use it carefully.
 
 For discussion's sake, let's consider some basic necessary, though not sufficient conditions. We might all agree that a Software Engineer:
 
