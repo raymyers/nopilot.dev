@@ -6,9 +6,9 @@ tags: []
 ---
 **Devin dissected. Disinformation debunked. Direction declared!**
 
-It's now been one month since Cognition announced Devin, which we remain excited about. However, it's time to go over that initial announcement Tweet, because we need to get some things clear.
+It's now been one month since Cognition announced Devin, which we remain excited about. However, it's time to go over that initial announcement [tweet]([thread](https://x.com/cognition_labs/status/1767548763134964000)), because we need to get some things clear.
 
-Our position is that Autonomous DevTools will have a historic impact on software (good or bad!) This period is the beginning of their transition from research prototypes to eventual production use.
+We predict that Autonomous DevTools will have a historic impact on software (good or bad!) This period is the beginning of their transition from research prototypes to eventual production use.
 
 If you tuned into this "dissection" hoping to see real architecture and code deep dives, don't worry - it's coming next. This site exists to promote the development of high quality Open Source tools, and we intend to hold every player to the same standards we're holding Cogniton to here.
 
@@ -85,7 +85,7 @@ Without the supervision of a human programmer, every autonomous coding tool to d
 
 ## We can fix this
 
-If Cognition responds, I will publish their remarks here. Perhaps they already [said it best](https://x.com/cognition_labs/status/1768716565636059274) at the end of the thread:
+If Cognition responds, we will publish their remarks here. Perhaps they already [said it best](https://x.com/cognition_labs/status/1768716565636059274) at the end of the thread:
 
 > Agents are still in their infancy, and there’s a lot of room for improvement.
 
