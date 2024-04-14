@@ -6,7 +6,7 @@ tags: []
 ---
 **Devin dissected. Disinformation debunked. Direction declared!**
 
-It's now been one month since Cognition announced Devin, which we remain excited about. However, it's time to go over that initial announcement [tweet]([thread](https://x.com/cognition_labs/status/1767548763134964000)), because we need to get some things clear.
+It's now been one month since Cognition announced Devin, which we remain excited about. However, it's time to go over that initial announcement [tweet](https://x.com/cognition_labs/status/1767548763134964000), because we need to get some things clear.
 
 We predict that Autonomous DevTools will have a historic impact on software (good or bad!) This period is the beginning of their transition from research prototypes to eventual production use.
 
