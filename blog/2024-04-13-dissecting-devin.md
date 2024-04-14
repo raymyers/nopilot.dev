@@ -32,7 +32,7 @@ Good so far.
 
 However we tend to believe that the performance was *roughly* as reported because Cognition was nice enough to provide the [results](https://github.com/CognitionAI/devin-swebench-results) from the runs. Another reason it's plausible is that two Open Source agents using different architectures have since met or exceeded that score, SWE-agent (Princeton) and reportedly AutoCodeRover (NUS), see our [leaderboards](/leaderboards) page for updates.
 
-## The interviews
+### Job interviews
 > and it has successfully passed practical engineering interviews from leading AI companies,
 
 **Misleading** even if true. Also unimpressive as it's a known capability of GPT-4.
@@ -45,7 +45,7 @@ When we design a test for humans, such as an exam or interview, we build in assu
 
 Since we're being careful with terms today, these were not *job* interviews, they were *mock* interviews. You can only pass a job interview if you are being interviewed for a job, meaning the company believes you might be otherwise qualified.
 
-## The Upwork job
+### The Upwork job
 
 > and has even completed real jobs on Upwork.
 
@@ -55,7 +55,7 @@ Since we're being careful with terms today, these were not *job* interviews, the
 
 **True!**. In our view, this is the principal achievement. Although there were prior efforts, (GPT-Engineer, Aider, Smol-Developer, [etc...](https://github.com/e2b-dev/awesome-ai-agents)), this really brought it into focus - the smooth combination of these elements into a UX that anyone can look at and "get it". Once something like this is released and proven, tons of people will want one. We will buy them and we will build them.
 
-## More on SWE-bench
+### More on SWE-bench
 > When evaluated on the SWE-Bench benchmark, which asks an AI to resolve GitHub issues found in real-world open-source projects, Devin correctly resolves 13.86% of the issues unassisted, far exceeding the previous state-of-the-art model performance of 1.96% unassisted and 4.80% assisted.
 
 As covered above, this is plausible. Media outlets have widely misreported this as being able to solve "14% of bugs on GitHub" and similar, which is a wildly different claim that Cognition never made. SWE-bench is limited in the types of issues it samples, containing only widely-used Python libraries covered by tests.
@@ -72,10 +72,10 @@ It was a cool [thread](https://x.com/cognition_labs/status/1767548763134964000)!
 
 Software Engineer was a term introduced by Margaret Hamilton for the Apollo Moon landing project in order to secure professional respect for her colleagues and to emphasize the disciplined practices they were developing. By consensus, the term's use in most of the industry remains somewhat aspirational, but with the world now running on software we have good reason to use it carefully.
 
-For discussion's sake, let's consider some basic necessary, though not sufficient conditions. We might all agree that a Software Engineer:
+For discussion's sake, let's consider some basic necessary, though not sufficient conditions. We might all agree that a **Software Engineer**:
 
-* Is a professional, having an obligation to uphold a standard of care
-  * Therefore, has legal and moral agency typically associated with personhood
+* Is a *[professional](https://jolt.law.harvard.edu/assets/articlePDFs/v33/33HarvJLTech557.pdf)*, having an obligation to uphold a standard of care
+  * Therefore, has *legal and moral agency* typically associated with *personhood* 
 * Is capable not only of solving small predefined tasks in a codebase, but also
   * Creating and maintaining a codebase of significant size over a period of time
   * Partnering to define the requirements to be done
@@ -93,7 +93,7 @@ My advice to everyone building or selling in this space is just take a deep brea
 
 What's done is done. Even industry leaders have gotten caught up in the frenzy and claimed some pretty outlandish things, leading to a stream of embarrassing headlines. We need to restore trust.
 
-Building software that people can trust is hard. If you want to learn how, there's help. For instance, next month I'm honored to speak at [Craft Conf 2024](https://craft-conf.com/2024) in Budapest, with the talk "[Code Mending in the AI Age](https://craft-conf.com/2024/talk/code-mending-in-the-ai-age)". Just a glance through Craft's featured speaker list shows people who have put out treasure troves on improving software.
+Building software that people can trust is hard. If you want to learn how, there's help. For instance, next month I'm honored to speak at [Craft Conf 2024](https://craft-conf.com/2024) in Budapest, with the talk "[Code Mending in the AI Age](https://craft-conf.com/2024/talk/code-mending-in-the-ai-age)". Just a glance through Craft's featured speaker list shows people who have put out treasure troves on improving software. Here's a quick [playlist](https://www.youtube.com/playlist?list=PLRe4i06eNAcB-eb1swDP61cRbkP_Qcawo) if you'd like to browse!
 
 *With patience the most tangled cord may be undone.*
 
