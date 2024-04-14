@@ -10,7 +10,7 @@ It's now been one month since Cognition announced Devin, which we remain excited
 
 We predict that Autonomous DevTools will have a historic impact on software (good or bad!) This period is the beginning of their transition from research prototypes to eventual production use.
 
-If you tuned into this "dissection" hoping to see real architecture and code deep dives, don't worry - it's coming next. This site exists to promote the development of high quality Open Source tools, and we intend to hold every player to the same standards we're holding Cogniton to here.
+If you tuned into this "dissection" hoping to see real architecture and code deep dives, don't worry - it's coming next. This site exists to promote the development of high quality Open Source tools, and we intend to hold every player to the same standards we're holding Cognition to here.
 
 ## The announcement
 <img src="/img/devin-announcement-tweet.png" alt="Devin announcement tweet" style={{width: '60%'}}></img>
@@ -41,15 +41,15 @@ You can see this "old trick" in the paper [Sparks of Artificial General Intellig
 
 ![Sparks of Artificial General Intelligence: Early experiments with GPT-4](/img/sparks-fig-1-5.png)
 
-When we design a test for humans, such as an exam or interview, we build in assumptions about the common abilities and deficiencies intrisic to humans. For instance to whatever extent a bar exam can assess that a human can practice law, it has very little bearing on whether a machine can, Language Model or otherwise.
+When we design a test for humans, such as an exam or interview, we build in assumptions about the common abilities and deficiencies intrinsic to humans. For instance, to whatever extent a bar exam can assess that a human can practice law, it has very little bearing on whether a machine can, Language Model or otherwise.
 
-Since we're being careful with terms today, these were also not technically *job* interviews, they were *mock* interviews. You can only pass a job interview if you are being interviewed for a job, meaning the company believes you might be qualified and is gathering more signal to make a decision.
+Since we're being careful with terms today, these were not *job* interviews, they were *mock* interviews. You can only pass a job interview if you are being interviewed for a job, meaning the company believes you might be otherwise qualified.
 
 ## The Upwork job
 
 > and has even completed real jobs on Upwork.
 
-**Completely false**, as we can easily see by simply reading the Upwork task description in the demo video, which says, "Your deliverable will be detailed instructions on how to do it in an EC2 instance in AWS." Internet of Bugs provides an excellent [analysis](https://www.youtube.com/watch?v=tNmgmwEtoWE) showing that not only is the task incomplete, but the impressive debugging capabilites we saw in the video were the result of the agent **adding its own bugs** while doing uneccesary work because it ignored the instructions in the README. Sometimes they're too much like us!
+**Completely false**, as we can easily see by simply reading the Upwork task description in the demo video, which says, "Your deliverable will be detailed instructions on how to do it in an EC2 instance in AWS." Internet of Bugs provides an excellent [analysis](https://www.youtube.com/watch?v=tNmgmwEtoWE) showing that not only is the task incomplete, but the impressive debugging capabilities we saw in the video were the result of the agent **adding its own bugs** while doing unnecessary work because it ignored the instructions in the README. Sometimes they're too much like us!
 
 > Devin is an autonomous agent that solves engineering tasks through the use of its own shell, code editor, and web browser.
 
@@ -91,9 +91,9 @@ If Cognition responds, we will publish their remarks here. Perhaps they already 
 
 My advice to everyone building or selling in this space is just take a deep breath and figure out how you can give people exactly what you write on the tin.
 
-What's done is done. Industry leaders themselves have gotten caught up in the frenzy and claimed some pretty outlanding things, leading to a stream of embarassing headlines. We need to restore trust.
+What's done is done. Even industry leaders have gotten caught up in the frenzy and claimed some pretty outlandish things, leading to a stream of embarrassing headlines. We need to restore trust.
 
-If you want to learn how, there's help. For instance, next month I'm honored to speak at [Craft Conf 2024](https://craft-conf.com/2024) in Budapest, with the talk "[Code Mending in the AI Age](https://craft-conf.com/2024/talk/code-mending-in-the-ai-age)". Just a glance through the featured speaker list shows people who have put out treasure troves on improving software.
+Building software that people can trust is hard. If you want to learn how, there's help. For instance, next month I'm honored to speak at [Craft Conf 2024](https://craft-conf.com/2024) in Budapest, with the talk "[Code Mending in the AI Age](https://craft-conf.com/2024/talk/code-mending-in-the-ai-age)". Just a glance through Craft's featured speaker list shows people who have put out treasure troves on improving software.
 
 *With patience the most tangled cord may be undone.*
 
