@@ -12,18 +12,19 @@ There are many LLM benchmarks, but for the purposes of evaluating Autonomous Dev
 [SWE-bench](https://www.swebench.com) publishes official results, the below includes results that have been credibly reported but not verified. 
 
 **Unassisted:**
-*Last checked: 2024-04-10*
+*Last checked: 2024-04-15*
 | Rank | Agent                | Score  | Score (lite) | Status            | Group        | License                 |
 | ---- | -------------------- | ------ | ------------ | ----------------- | ------------ | ----------------------- |
-| 1    | [auto-code-rover](https://github.com/nus-apr/auto-code-rover)      | -  | 22.3%            | Reported          | APR@NUS      | GPL-3                   |
+| 1    | [auto-code-rover](https://github.com/nus-apr/auto-code-rover)      | 15.95%  | 22.3%            | Reported          | APR@NUS      | GPL-3                   |
 | 2    | Devin                | 13.48% | -            | Reported (sample)  | Cognition    | Proprietary |
 | 3    | [SWE-agent](https://swe-agent.com/) + GPT 4    | 12.29% | 17%          | Official          | Princeton NLP  | MIT                     |
 
 
 SWE-bench scores come in "assisted" and "unassisted" versions. "Assisted" means the agent is told which files need to be modified by the "oracle". There is usually a large difference between these scores, highlighting that navigating the codebase is a key part of the problem.
 
-ML researcher [theblackcat102](https://github.com/theblackcat102) [reports](https://x.com/zraytam/status/1769523013501039070) that Claude 3 Opus reaches 11.07% assisted, hinting that the current GPT-4-based agent scores could be improved with Opus access (we got usage throttled attempting to verify). 
+ML researcher [theblackcat102](https://github.com/theblackcat102) [reports](https://x.com/zraytam/status/1769523013501039070) that Claude 3 Opus reaches 11.07% assisted, hinting that the current GPT-4-based agent scores could be improved with Opus access (we got usage throttled attempting to verify).
 
+Paul Gauthier [points out](https://github.com/princeton-nlp/SWE-bench/issues/72) that some SWE-bench cases appear to be underspecified and effectively impossible to solve because the tests rely on implementation detail. It's unclear what the maximum possible score is.
 
 ## LiveCodeBench
 
