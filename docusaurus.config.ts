@@ -74,7 +74,7 @@ const config: Config = {
         {to: '/leaderboards', label: 'Leaderboards', position: 'left'},
         {to: '/resources', label: 'Resources', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/raymyers/nopilot.dev',
           label: 'GitHub',
           position: 'right',
         },
