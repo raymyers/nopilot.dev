@@ -51,6 +51,8 @@ Since we're being careful with terms today, these were not *job* interviews, the
 
 **Completely false**, as we can easily see by simply reading the Upwork task description in the demo video, which says, "Your deliverable will be detailed instructions on how to do it in an EC2 instance in AWS." Internet of Bugs provides an excellent [analysis](https://www.youtube.com/watch?v=tNmgmwEtoWE) showing that not only is the task incomplete, but the impressive debugging capabilities we saw in the video were the result of the agent **adding its own bugs** while doing unnecessary work because it ignored the instructions in the README. Sometimes they're too much like us!
 
+*See the last section for an update on this issue.*
+
 ## The product itself
 
 > Devin is an autonomous agent that solves engineering tasks through the use of its own shell, code editor, and web browser.
@@ -85,11 +87,25 @@ For discussion's sake, let's consider some basic necessary, though not sufficien
 Without the supervision of a human programmer, every autonomous coding tool to date would fail these minimal prerequisites. That's before any consideration of the actual engineering discipline as currently understood, see Dave Farley's recent book [Modern Software Engineering](https://www.davefarley.net/?p=352) for a nice formulation.
 
 
+## **Update**: Cognition clarifies conceding to critics?
+
+We promised that if Cognition responded to these points, we would include their remarks, and they have!
+
+Their April 17th [thread](https://x.com/cognition_labs/status/1780661877686538448) announced that the closed beta was rolling out to more of the waitlist, and they included this:
+
+> We recently got questions about one of Devin’s Upwork runs, where Devin’s output wasn’t what the request asked for. It did the task directly instead of giving directions as requested (which to be clear is on us, sorry for the oversight).
+>
+> Still, Devin is often inefficient and makes mistakes, some that it fixes and others that cause it to get stuck.
+>
+> Part of the reason we’re glad to expand access is so more people can form their own opinions about Devin’s strengths and shortcomings.
+>
+> We believe that skepticism is good and we all need to vet new technologies critically, so keep it coming!
+
+This appears to be a tacit acknowledgement of multiple points in the Internet of Bugs [video](https://www.youtube.com/watch?v=tNmgmwEtoWE). It also emphasizes the importance of scrutiny, suggesting an ongoing dialog. While their overall narrative is unchanged, this is a stand up move!
+
+This encourages the conversation about how Autonomous DevTools will integrate into an overall healthy process.
+
 ## We can fix this
-
-If Cognition responds, we will publish their remarks here. Perhaps they already [said it best](https://x.com/cognition_labs/status/1768716565636059274) at the end of the thread:
-
-> Agents are still in their infancy, and there’s a lot of room for improvement.
 
 My advice to everyone building or selling in this space is just take a deep breath and figure out how you can give people exactly what you write on the tin.
 
