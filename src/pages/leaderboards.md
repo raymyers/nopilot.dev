@@ -12,7 +12,7 @@ There are many LLM benchmarks, but for the purposes of evaluating Autonomous Dev
 [SWE-bench](https://www.swebench.com) publishes official results, the below includes results that have been credibly reported but not verified. 
 
 **Unassisted:**
-*Last checked: 2024-04-15*
+*Last checked: 2024-04-16*
 | Rank | Agent                | Score  | Score (lite) | Status            | Group        | License                 |
 | ---- | -------------------- | ------ | ------------ | ----------------- | ------------ | ----------------------- |
 | 1    | [Fume](https://twitter.com/aegucer/status/1780319507845988538)      | 18.3%  | -           | Reported          |  Fume Technologies    | Proprietary                   |
