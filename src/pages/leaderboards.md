@@ -15,9 +15,9 @@ There are many LLM benchmarks, but for the purposes of evaluating Autonomous Dev
 *Last checked: 2024-04-16*
 | Rank | Agent                | Score  | Score (lite) | Status            | Group        | License                 |
 | ---- | -------------------- | ------ | ------------ | ----------------- | ------------ | ----------------------- |
-| 1    | [Fume](https://twitter.com/aegucer/status/1780319507845988538)      | 18.3%  | -           | Reported          |  Fume Technologies    | Proprietary                   |
+| 1    | [Fume](https://twitter.com/aegucer/status/1780319507845988538)      | 18.3%  | -           | Reported (5% sample)         |  Fume Technologies    | Proprietary                   |
 | 2    | [auto-code-rover](https://github.com/nus-apr/auto-code-rover)      | 15.95%  | 22.3%            | Reported          | APR@NUS      | GPL-3                   |
-| 3    | Devin                | 13.48% | -            | Reported (sample)  | Cognition    | Proprietary |
+| 3    | Devin                | 13.48% | -            | Reported (25% sample)  | Cognition    | Proprietary |
 | 4    | [SWE-agent](https://swe-agent.com/) + GPT 4    | 12.29% | 17%          | Official          | Princeton NLP  | MIT                     |
 
 
