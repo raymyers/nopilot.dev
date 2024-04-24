@@ -1,7 +1,7 @@
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
-
+import Leaderboard from '../Leaderboard';
 type FeatureItem = {
   title: string;
   Svg: React.ComponentType<React.ComponentProps<'svg'>>;
@@ -75,7 +75,7 @@ export default function HomepageFeatures(): JSX.Element {
               {/* <Svg className={styles.featureSvg} role="img" /> */}
             </div>
             <div className="padding-horiz--md" style={{ fontSize: "1.1em" }}>
-              <Heading as="h3" className="text--left">Mission: Shape the future of software in the open</Heading>
+              <Heading as="h2" className="text--left">Mission: Shape the future of software in the open</Heading>
               <p>
                 We believe it is in the best interest of the software industry, which the world depends on, to deem certain types of tools as essential infrastructure.
               </p>
@@ -103,7 +103,7 @@ export default function HomepageFeatures(): JSX.Element {
           </div>
           <div className={clsx('col col--6')} style={{ fontSize: "1.2em" }}>
             <div className="padding-horiz--md">
-              <Heading as="h3">Get started</Heading>
+              <Heading as="h2">Get started</Heading>
               <ul>
                 <li><a href="https://mender.ai/docs/learn/ai-skills">Learn about AI</a></li>
                 <li><a href="https://www.gnu.org/philosophy/free-sw.en.html">Learn about Open Source</a></li>
@@ -126,7 +126,27 @@ export default function HomepageFeatures(): JSX.Element {
               
             </div>
           </div> */}
-          
+          <div className={clsx('col col--6')}>
+            <div className="padding-horiz--md">
+              <Heading as="h2">Updates</Heading>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/jhkY_BUDVcU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <div>
+                <p className="padding-horiz--sm"><a href="/blog/dissecting-devin">Blog: Dissecting Devin</a></p>
+              </div>
+              
+            </div>
+          </div>
+          <div className={clsx('col col--6')} style={{ fontSize: "1.0em" }}>
+            <div className="padding-horiz--md">
+              <Heading as="h2">SWE-bench leaderboard</Heading>
+              <a href="/leaderboards">More on leaderboards page</a>
+              <div style={{marginLeft: "auto", marginRight: "auto"}}>
+                <Leaderboard compact={true} />
+              </div>
+              
+            </div>           
+          </div>
+          {/* <div className={clsx('col col-2')}></div> */}
         </div>
         {/* <iframe width="560" height="315" src="https://www.youtube.com/embed/IM5oi2ycNIY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> */}
 

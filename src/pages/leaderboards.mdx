@@ -1,6 +1,7 @@
 ---
 title: Leaderboards
 ---
+import Leaderboard from '@site/src/components/Leaderboard';
 
 # Leaderboards
 
@@ -11,17 +12,9 @@ There are many LLM benchmarks, but for the purposes of evaluating Autonomous Dev
 
 [SWE-bench](https://www.swebench.com) publishes official results, the below includes results that have been credibly reported but not verified. 
 
-**Unassisted:**
-*Last checked: 2024-04-16*
-| Rank | Agent                | Score  | Score (lite) | Status            | Group        | License                 |
-| ---- | -------------------- | ------ | ------------ | ----------------- | ------------ | ----------------------- |
-| 1    | [Fume](https://twitter.com/aegucer/status/1780319507845988538)      | 18.3%  | -           | Reported (5% sample)         |  Fume Technologies    | Proprietary                   |
-| 2    | [auto-code-rover](https://github.com/nus-apr/auto-code-rover)      | 15.95%  | 22.3%            | Reported          | APR@NUS      | GPL-3                   |
-| 3    | Devin                | 13.48% | -            | Reported (25% sample)  | Cognition    | Proprietary |
-| 4    | [SWE-agent](https://swe-agent.com/) + GPT 4    | 12.29% | 17%          | Official          | Princeton NLP  | MIT                     |
+<Leaderboard />
 
-
-SWE-bench scores come in "assisted" and "unassisted" versions. "Assisted" means the agent is told which files need to be modified by the "oracle". There is usually a large difference between these scores, highlighting that navigating the codebase is a key part of the problem.
+These are *unassisted* scores. SWE-bench scores come in "assisted" and "unassisted" versions. "Assisted" means the agent is told which files need to be modified by the "oracle". There is usually a large difference between these scores, highlighting that navigating the codebase is a key part of the problem.
 
 ML researcher [theblackcat102](https://github.com/theblackcat102) [reports](https://x.com/zraytam/status/1769523013501039070) that Claude 3 Opus reaches 11.07% assisted, hinting that the current GPT-4-based agent scores could be improved with Opus access (we got usage throttled attempting to verify).
 
