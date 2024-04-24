@@ -41,7 +41,7 @@ export default function Leaderboard(props): JSX.Element {
     </tr>
     <tr>
       <td>4</td>
-      <td><a href="https://swe-agent.com/">SWE-agent</a> + GPT 4</td>
+      <td><a href="https://swe-agent.com/">SWE-agent</a> + GPT-4</td>
       <td>12.29%</td>
       <td>17%</td>
       <td>Official</td>

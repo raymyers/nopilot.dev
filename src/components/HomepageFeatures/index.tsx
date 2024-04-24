@@ -129,10 +129,12 @@ export default function HomepageFeatures(): JSX.Element {
           <div className={clsx('col col--6')}>
             <div className="padding-horiz--md">
               <Heading as="h2">Updates</Heading>
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/jhkY_BUDVcU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               <div>
-                <p className="padding-horiz--sm"><a href="/blog/dissecting-devin">Blog: Dissecting Devin</a></p>
+                <p className=""><a href="/blog/dissecting-devin">Blog: Dissecting Devin</a></p>
               </div>
+              
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/jhkY_BUDVcU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
               
             </div>
           </div>
