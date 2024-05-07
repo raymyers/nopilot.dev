@@ -23,6 +23,15 @@ export default function Leaderboard(props): JSX.Element {
     </tr>
     <tr>
       <td>3</td>
+      <td><a href="https://xwang.dev/blog/2024/opendevin-codeact-1.0-swebench/">OpenDevin CodeAct</a></td>
+      <td>-</td>
+      <td>21%</td>
+      <td>Reported</td>
+      { compact || <td>OpenDevin</td> }
+      { compact || <td>MIT</td> }
+    </tr>
+    <tr>
+      <td>3</td>
       <td>Devin</td>
       <td>13.48%</td>
       <td>-</td>
@@ -49,6 +58,6 @@ export default function Leaderboard(props): JSX.Element {
       { compact || <td>MIT</td> }
     </tr>
   </table>
-  <p><i>Last checked: 2024-05-06</i></p>
+  <p><i>Last updated: 2024-05-07</i></p>
 </div>)
 }
