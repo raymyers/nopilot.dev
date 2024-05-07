@@ -42,13 +42,13 @@ export default function Leaderboard(props): JSX.Element {
     <tr>
       <td>4</td>
       <td><a href="https://swe-agent.com/">SWE-agent</a> + GPT-4</td>
-      <td>12.29%</td>
-      <td>17%</td>
+      <td>12.47%</td>
+      <td>18%</td>
       <td>Official</td>
       { compact || <td>Princeton NLP</td> }
       { compact || <td>MIT</td> }
     </tr>
   </table>
-  <p><i>Last checked: 2024-04-16</i></p>
+  <p><i>Last checked: 2024-05-06</i></p>
 </div>)
 }
