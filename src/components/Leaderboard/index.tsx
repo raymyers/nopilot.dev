@@ -13,15 +13,6 @@ export default function Leaderboard(props): JSX.Element {
       { compact || <th>License</th> }
     </tr>
     <tr>
-      <td>1</td>
-      <td><a href="https://twitter.com/aegucer/status/1780319507845988538">Fume</a></td>
-      <td>18.3%</td>
-      <td>-</td>
-      <td>Reported (5% sample)</td>
-      { compact || <td>Fume Technologies</td> }
-      { compact || <td>Proprietary</td> }
-    </tr>
-    <tr>
       <td>2</td>
       <td><a href="https://github.com/nus-apr/auto-code-rover">auto-code-rover</a></td>
       <td>15.95%</td>
@@ -37,6 +28,15 @@ export default function Leaderboard(props): JSX.Element {
       <td>-</td>
       <td>Reported (25% sample)</td>
       { compact || <td>Cognition</td> }
+      { compact || <td>Proprietary</td> }
+    </tr>
+    <tr>
+      <td>1</td>
+      <td><a href="https://twitter.com/aegucer/status/1780319507845988538">Fume</a></td>
+      <td>-</td>
+      <td>18.3%</td>
+      <td>Reported (5% sample)</td>
+      { compact || <td>Fume Technologies</td> }
       { compact || <td>Proprietary</td> }
     </tr>
     <tr>

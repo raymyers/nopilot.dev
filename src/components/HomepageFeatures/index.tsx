@@ -97,8 +97,6 @@ export default function HomepageFeatures(): JSX.Element {
                 <li>The freedom to distribute modified copies, contributing to the community.</li>
               </ol>
               </p> */}
-
-              {/* <iframe width="560" height="315" src="https://www.youtube.com/embed/IM5oi2ycNIY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> */}
             </div>
           </div>
           <div className={clsx('col col--6')} style={{ fontSize: "1.2em" }}>
