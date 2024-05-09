@@ -32,12 +32,12 @@ export default function Leaderboard(props): JSX.Element {
     </tr>
     <tr>
       <td>3</td>
-      <td>Sweep</td>
+      <td><a href="https://github.com/sweepai/sweep">Sweep</a></td>
       <td>15.7%</td>
       <td>-</td>
       <td>Reported<br/>(10% sample)</td>
       { compact || <td>Sweep AI</td> }
-      { compact || <td>Proprietary</td> }
+      { compact || <td>Proprietary<br/>(Source Available)</td> }
     </tr>
     <tr>
       <td>4</td>
@@ -67,6 +67,6 @@ export default function Leaderboard(props): JSX.Element {
       { compact || <td>Proprietary</td> }
     </tr>
   </table>
-  <p><i>Last updated: 2024-05-07</i></p>
+  <p><i>Last updated: 2024-05-09</i></p>
 </div>)
 }
