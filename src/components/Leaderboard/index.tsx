@@ -32,6 +32,15 @@ export default function Leaderboard(props): JSX.Element {
     </tr>
     <tr>
       <td>3</td>
+      <td>Sweep</td>
+      <td>15.7%</td>
+      <td>-</td>
+      <td>Reported<br/>(10% sample)</td>
+      { compact || <td>Sweep AI</td> }
+      { compact || <td>Proprietary</td> }
+    </tr>
+    <tr>
+      <td>4</td>
       <td>Devin</td>
       <td>13.48%</td>
       <td>-</td>
@@ -40,7 +49,7 @@ export default function Leaderboard(props): JSX.Element {
       { compact || <td>Proprietary</td> }
     </tr>
     <tr>
-      <td>4</td>
+      <td>5</td>
       <td><a href="https://swe-agent.com/">SWE-agent</a><br/> + GPT-4</td>
       <td>12.47%</td>
       <td>18%</td>
@@ -49,7 +58,7 @@ export default function Leaderboard(props): JSX.Element {
       { compact || <td>MIT</td> }
     </tr>
     <tr>
-      <td>5</td>
+      <td>6</td>
       <td><a href="https://twitter.com/aegucer/status/1780319507845988538">Fume</a></td>
       <td>-</td>
       <td>18.3%</td>
