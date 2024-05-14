@@ -128,11 +128,14 @@ export default function HomepageFeatures(): JSX.Element {
             <div className="padding-horiz--md">
               <Heading as="h2">Updates</Heading>
               <div>
-                <p className=""><a href="/blog/dissecting-devin">Blog: Dissecting Devin</a></p>
+                <ul>
+                  <li><a href="https://www.youtube.com/watch?v=Ko-R3MtTpWQ">Reading of SWE-agent paper</a></li>
+                  <li><a href="/blog/dissecting-devin">Blog: Dissecting Devin</a></li>
+                </ul>
               </div>
-              
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/jhkY_BUDVcU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+              <div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/aKrjE7NKfw8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
               
             </div>
           </div>

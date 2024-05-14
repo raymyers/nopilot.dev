@@ -98,6 +98,10 @@ const config: Config = {
               label: 'Craft vs Cruft',
               href: 'https://www.youtube.com/channel/UC4nEbAo5xFsOZDk2v0RIGHA',
             },
+            {
+              label: 'More',
+              href: '/resources',
+            },
           ],
         },
         {
@@ -108,13 +112,14 @@ const config: Config = {
             //   href: 'https://stackoverflow.com/questions/tagged/docusaurus',
             // },
             {
-              label: 'nopilot.dev Discord',
+              label: 'Nopilot Discord',
               href: 'https://discord.gg/k3hzFm5ykA',
             },
             {
-              label: 'Resources',
-              href: '/resources',
+              label: 'Nopilot YouTube',
+              href: 'https://www.youtube.com/@nopilot-dev',
             },
+            
             // {
             //   label: 'Twitter',
             //   href: 'https://twitter.com/docusaurus',

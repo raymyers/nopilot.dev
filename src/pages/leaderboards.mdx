@@ -20,6 +20,30 @@ ML researcher [theblackcat102](https://github.com/theblackcat102) [reports](http
 
 Paul Gauthier [points out](https://github.com/princeton-nlp/SWE-bench/issues/72) that some SWE-bench cases appear to be underspecified and effectively impossible to solve because the tests rely on implementation detail. It's unclear what the maximum possible score is.
 
+## Aider Leaderboards
+
+The coding agent Aider maintains a [leaderboard](https://aider.chat/docs/leaderboards) of model performance within its key subtasks.
+
+### Code Editing
+
+- openai/gpt-4o
+- claude-3-opus
+- gpt-4 (0613)
+- gpt-4-turbo (2024-04-09)
+- deepseek-chat v2 (Open Weight)
+- gpt-3.5-turbo
+- gemini-1.5-pro
+- claude-3-sonnet
+- deepseek-coder (Open Weight)
+
+### Code refactoring
+
+- claude-3-opus
+- openai/gpt-4o
+- gpt-4 (1106-preview)
+- gemini-1.5-pro
+- gpt-4-turbo (2024-04-09)
+
 ## LiveCodeBench
 
 [LiveCodeBench](https://livecodebench.github.io/leaderboard.html): "Holistic and Contamination Free Evaluation of Large Language Models for Code"
@@ -31,10 +55,15 @@ Tests the strength of models across different coding sub-tasks.
 * Test Output Prediction
 * Code Execution
 
-*Last checked: 2024-04-10*
-* Proprietary Leaders: GPT-4-Turbo-2024-04-09, Claude-3-Opus
-* Open Weight Leaders: [WizardCoder-33B-V1.1](https://huggingface.co/WizardLM/WizardCoder-33B-V1.1), [deepseek-coder-33b-instruct](https://huggingface.co/deepseek-ai/deepseek-coder-33b-instruct), [CodeLlama-34b-Instruct-hf](https://huggingface.co/codellama/CodeLlama-34b-Instruct-hf)
+The below listing of standout models across subtasks is subjective.
 
+*Last checked: 2024-05-14*
+* Proprietary Leaders: GPT-4o, GPT-4-Turbo, Claude-3-Opus
+* Open Weight Leaders:
+  * [LLama3-70b-Ins](https://huggingface.co/meta-llama/Meta-Llama-3-70B-Instruct)
+  * [WizardCoder-33B-V1.1](https://huggingface.co/WizardLM/WizardCoder-33B-V1.1)
+  * [deepseek-coder-33b-instruct](https://huggingface.co/deepseek-ai/deepseek-coder-33b-instruct)
+  * [Phind-34B-V2](https://huggingface.co/Phind/Phind-CodeLlama-34B-v2)
 
 ## Other notable benchmarks
 
