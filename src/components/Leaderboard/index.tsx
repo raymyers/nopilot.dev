@@ -14,15 +14,6 @@ export default function Leaderboard(props): JSX.Element {
     </tr>
     <tr>
       <td>1</td>
-      <td><a href="https://github.com/nus-apr/auto-code-rover">auto-code-rover</a></td>
-      <td>15.95%</td>
-      <td>22.3%</td>
-      <td>Reported</td>
-      { compact || <td>APR@NUS</td> }
-      { compact || <td>GPL-3</td> }
-    </tr>
-    <tr>
-      <td>2</td>
       <td><a href="https://xwang.dev/blog/2024/opendevin-codeact-1.0-swebench/">OpenDevin CodeAct</a></td>
       <td>-</td>
       <td>21%</td>
@@ -31,13 +22,22 @@ export default function Leaderboard(props): JSX.Element {
       { compact || <td>MIT</td> }
     </tr>
     <tr>
-      <td>3</td>
+      <td>2</td>
       <td><a href="https://github.com/sweepai/sweep">Sweep</a></td>
       <td>15.7%</td>
       <td>-</td>
       <td>Reported<br/>(10% sample)</td>
       { compact || <td>Sweep AI</td> }
       { compact || <td>Proprietary<br/>(Source Available)</td> }
+    </tr>
+    <tr>
+      <td>3</td>
+      <td><a href="https://press.aboutamazon.com/2024/4/aws-announces-general-availability-of-amazon-q-the-most-capable-generative-ai-powered-assistant-for-accelerating-software-development-and-leveraging-companies-internal-data">Q Developer Agent</a></td>
+      <td>13.82</td>
+      <td>20.33</td>
+      <td>Official</td>
+      { compact || <td>Amazon</td> }
+      { compact || <td>Proprietary</td> }
     </tr>
     <tr>
       <td>4</td>
@@ -59,6 +59,15 @@ export default function Leaderboard(props): JSX.Element {
     </tr>
     <tr>
       <td>6</td>
+      <td><a href="https://github.com/nus-apr/auto-code-rover">auto-code-rover</a></td>
+      <td>10.59%</td>
+      <td>16.11%</td>
+      <td>Reported<br/>(Average of runs)</td>
+      { compact || <td>APR@NUS</td> }
+      { compact || <td>GPL-3</td> }
+    </tr>
+    <tr>
+      <td>7</td>
       <td><a href="https://twitter.com/aegucer/status/1780319507845988538">Fume</a></td>
       <td>-</td>
       <td>18.3%</td>
@@ -67,6 +76,6 @@ export default function Leaderboard(props): JSX.Element {
       { compact || <td>Proprietary</td> }
     </tr>
   </table>
-  <p><i>Last updated: 2024-05-09</i></p>
+  <p><i>Last updated: 2024-05-17</i></p>
 </div>)
 }
