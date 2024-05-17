@@ -14,9 +14,9 @@ export default function Leaderboard(props): JSX.Element {
     </tr>
     <tr>
       <td>1</td>
-      <td><a href="https://xwang.dev/blog/2024/opendevin-codeact-1.0-swebench/">OpenDevin CodeAct</a></td>
+      <td><a href="https://x.com/gneubig/status/1791498953709752405">OpenDevin CodeAct 1.3</a></td>
       <td>-</td>
-      <td>21%</td>
+      <td>25%</td>
       <td>Reported</td>
       { compact || <td>OpenDevin</td> }
       { compact || <td>MIT</td> }
