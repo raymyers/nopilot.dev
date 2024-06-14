@@ -6,7 +6,7 @@ title: Resources
 
 ## Community
 
-* [nopilot.dev Discord](https://discord.gg/k3hzFm5ykA) - Discussion about the ecosystem
+* [Nopilot Discord](https://discord.gg/k3hzFm5ykA) - Discussion about the ecosystem
 * [OpenDevin Discord](https://discord.gg/mBuDGRzzES)
 * [SWE-agent Discord](https://discord.gg/AVEFbBn2rH)
 * [Aider Discord](https://discord.gg/Tv2uQnR88V)
