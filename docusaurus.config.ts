@@ -74,6 +74,7 @@ const config: Config = {
         // },
         {to: '/blog', label: 'News', position: 'left'},
         {to: '/leaderboards', label: 'Leaderboards', position: 'left'},
+        {to: '/faq', label: 'FAQ', position: 'left'},
         {to: '/resources', label: 'Resources', position: 'left'},
         {
           href: 'https://github.com/raymyers/nopilot.dev',
