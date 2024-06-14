@@ -111,6 +111,6 @@ export default function Leaderboard(props): JSX.Element {
       { showLicense && <td>GPL-3</td> }
     </tr>
   </table>
-  <p><i>Last updated: 2024-05-25</i></p>
+  <p><i>Last updated: 2024-06-13</i></p>
 </div>)
 }
