@@ -7,16 +7,18 @@ import Leaderboard from '@site/src/components/Leaderboard';
 
 There are many LLM benchmarks, but for the purposes of evaluating Autonomous DevTools we are most interested in testing and agent's ability to address a realistic task on an existing codebase.
 
-## SWE-bench
-**The gold standard**. Released in September 2023 by Princeton NLP, SWE-bench is the most widely accepted measure of an agent's ability to solve tasks in a realistic codebase. It was constructed from GitHub Pull Requests from real Open Source respositories, with unit tests verifying the change. To pass, the agent must effectively recreate that Pull Request.
+## SWE-bench lite
+**The gold standard**. 
+Released in September 2023 by Princeton NLP, SWE-bench is the most widely accepted measure of an agent's ability to solve tasks in a realistic codebase. 
+It was constructed from GitHub Pull Requests from real Open Source respositories, with unit tests verifying the change. 
+To pass, the agent must effectively recreate that Pull Request. Since the full set is costly to run, the subset `SWE-bench lite` is often used.
 
-[SWE-bench](https://www.swebench.com) publishes official results, the below includes results that have been credibly reported but not verified. 
+[SWE-bench](https://www.swebench.com) maintains the official leaderboard where results are reported and verified.
+Nopilot focuses on listing all reported scored by Open Source and Source Available agents.
 
 <Leaderboard />
 
 These are *unassisted* scores. SWE-bench scores come in "assisted" and "unassisted" versions. "Assisted" means the agent is told which files need to be modified by the "oracle". There is usually a large difference between these scores, highlighting that navigating the codebase is a key part of the problem.
-
-ML researcher [theblackcat102](https://github.com/theblackcat102) [reports](https://x.com/zraytam/status/1769523013501039070) that Claude 3 Opus reaches 11.07% assisted, hinting that the current GPT-4-based agent scores could be improved with Opus access (we got usage throttled attempting to verify).
 
 Paul Gauthier [points out](https://github.com/princeton-nlp/SWE-bench/issues/72) that some SWE-bench cases appear to be underspecified and effectively impossible to solve because the tests rely on implementation detail. It's unclear what the maximum possible score is.
 
@@ -24,25 +26,25 @@ Paul Gauthier [points out](https://github.com/princeton-nlp/SWE-bench/issues/72)
 
 The coding agent Aider maintains a [leaderboard](https://aider.chat/docs/leaderboards) of model performance within its key subtasks.
 
+*Last checked: 2024-06-25*
+
 ### Code Editing
 
-- openai/gpt-4o
+- claude-3.5-sonnet
+- DeepSeek Coder V2 (Open Weight)
+- gpt-4o
 - claude-3-opus
-- gpt-4 (0613)
-- gpt-4-turbo (2024-04-09)
+- gpt-4
 - deepseek-chat v2 (Open Weight)
-- gpt-3.5-turbo
-- gemini-1.5-pro
-- claude-3-sonnet
-- deepseek-coder (Open Weight)
 
 ### Code refactoring
 
 - claude-3-opus
-- openai/gpt-4o
-- gpt-4 (1106-preview)
+- gpt-4o
+- gpt-4-turbo
 - gemini-1.5-pro
-- gpt-4-turbo (2024-04-09)
+
+Source for [Refactor Benchmark](https://github.com/paul-gauthier/refactor-benchmark).
 
 ## LiveCodeBench
 
@@ -57,15 +59,14 @@ Tests the strength of models across different coding sub-tasks.
 
 The below listing of standout models across subtasks is subjective.
 
-*Last checked: 2024-05-14*
-* Proprietary Leaders: GPT-4o, GPT-4-Turbo, Claude-3-Opus
+*Last checked: 2024-06-25*
+* Proprietary Leaders: , GPT-4o, GPT-4-Turbo, Claude-3-Opus, Claude-3.5-sonnet
 * Open Weight Leaders:
+  * [DeepSeekCoder-V2](https://huggingface.co/deepseek-ai/DeepSeek-V2)
+  * [Codestral-Latest](https://mistral.ai/news/codestral/)
   * [LLama3-70b-Ins](https://huggingface.co/meta-llama/Meta-Llama-3-70B-Instruct)
-  * [WizardCoder-33B-V1.1](https://huggingface.co/WizardLM/WizardCoder-33B-V1.1)
-  * [deepseek-coder-33b-instruct](https://huggingface.co/deepseek-ai/deepseek-coder-33b-instruct)
-  * [Phind-34B-V2](https://huggingface.co/Phind/Phind-CodeLlama-34B-v2)
+  * [Qwen2-Ins-72B](https://huggingface.co/Qwen/Qwen2-72B-Instruct)
 
 ## Other notable benchmarks
 
 * [HumanEval](https://paperswithcode.com/sota/code-generation-on-humaneval) by OpenAI
-* [Refactor Benchmark](https://github.com/paul-gauthier/refactor-benchmark) by Paul Gauthier, creator of Aider
