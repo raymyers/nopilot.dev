@@ -7,20 +7,20 @@ import Leaderboard from '@site/src/components/Leaderboard';
 
 There are many LLM benchmarks, but for the purposes of evaluating Autonomous DevTools we are most interested in testing and agent's ability to address a realistic task on an existing codebase.
 
-## SWE-bench lite
+## SWE-bench verified
 **The gold standard**. 
 Released in September 2023 by Princeton NLP, SWE-bench is the most widely accepted measure of an agent's ability to solve tasks in a realistic codebase. 
 It was constructed from GitHub Pull Requests from real Open Source respositories, with unit tests verifying the change. 
-To pass, the agent must effectively recreate that Pull Request. Since the full set is costly to run, the subset `SWE-bench lite` is often used.
+To pass, the agent must effectively recreate that Pull Request.
 
-[SWE-bench](https://www.swebench.com) maintains the official leaderboard where results are reported and verified.
+The full set is costly to run, we currently prefer the subset `SWE-bench verified`, which has been confirmed possible to solve by humans. Paul Gauthier [explains](https://github.com/princeton-nlp/SWE-bench/issues/72) the problem that led to that subset.
+
+[SWE-bench](https://www.swebench.com) maintains the official leaderboard where results are reported.
 Nopilot focuses on listing all reported scored by Open Source and Source Available agents.
 
 <Leaderboard />
 
-These are *unassisted* scores. SWE-bench scores come in "assisted" and "unassisted" versions. "Assisted" means the agent is told which files need to be modified by the "oracle". There is usually a large difference between these scores, highlighting that navigating the codebase is a key part of the problem.
-
-Paul Gauthier [points out](https://github.com/princeton-nlp/SWE-bench/issues/72) that some SWE-bench cases appear to be underspecified and effectively impossible to solve because the tests rely on implementation detail. It's unclear what the maximum possible score is.
+These are *unassisted* scores. "Assisted" means the agent is told which files need to be modified by the "oracle". There is usually a large difference between these scores, highlighting that navigating the codebase is a key part of the problem.
 
 ## Aider Leaderboards
 

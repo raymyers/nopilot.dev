@@ -1,0 +1,7 @@
+tools: sys.download, sys.read, sys.write
+
+Download https://www.swebench.com to swebench.html
+Extract the names and scores in the div with id "leaderboard-Verified", save to current-verified.txt
+Filter current-verified to only include those listed in `license-notes.txt`. Updating `src/components/Leaderboard/index.tsx` with the items and licenses.
+Update "last updated" date in the `src/components/Leaderboard/index.tsx` file to reflect the current date.
+

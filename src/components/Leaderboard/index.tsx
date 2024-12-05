@@ -3,56 +3,61 @@ export default function Leaderboard(props): JSX.Element {
     const { compact } = props;
     const showGroup = true;
     const showLicense = !compact;
-    const showStatus = !compact;
     const leaderboardData = [
 
       {
-        name: "Moatless Tools",
-        subtitle: "+ Claude 3.5 Sonnet",
-        url: "https://github.com/aorwall/moatless-tools",
-        score: "-",
-        scoreLite: "26.67%",
-        status: "Verified",
-        group: "Albert Örwall",
+        name: "OpenHands + CodeAct v2.1",
+        subtitle: "(claude-3-5-sonnet-20241022)",
+        url: "https://docs.all-hands.dev/",
+        score: "53.00%",
+        group: "OpenHands",
         license: "MIT"
       },
       {
-        name: "OpenDevin CodeAct 1.3",
-        subtitle: "+ GPT-4o",
-        url: "https://x.com/gneubig/status/1791498953709752405",
-        score: "-",
-        scoreLite: "26.67%",
-        status: "Reported",
-        group: "OpenDevin",
+        name: "Agentless-1.5",
+        subtitle: "+ Claude-3.5 Sonnet (20241022)",
+        url: "https://github.com/OpenAutoCoder/Agentless",
+        score: "50.80%",
+        group: "Agentless",
         license: "MIT"
       },
       {
-        name: "Aider",
-        subtitle: "+ GPT-4o, Claude 3 Opus",
-        url: "https://aider.chat/2024/05/22/swe-bench-lite.html",
-        score: "-",
-        scoreLite: "26.33%",
-        status: "Reported",
-        group: "Paul Gauthier",
-        license: "Apache-2"
+        name: "Composio SWE-Kit",
+        subtitle: "(2024-10-25)",
+        url: "https://github.com/ComposioHQ/composio/tree/master/python/swe/agent",
+        score: "48.60%",
+        group: "Composio",
+        license: "Source Available (ELv2)"
       },
       {
-        name: "AppMap Navie",
-        subtitle: "+ GPT-4o",
+        name: "AppMap Navie v2",
+        subtitle: "",
         url: "https://appmap.io/navie",
-        score: "-",
-        scoreLite: "21.67%",
-        status: "Reported",
+        score: "47.20%",
         group: "AppMap",
         license: "Source Available"
       },
       {
+        name: "AutoCodeRover-v2.0",
+        subtitle: "(Claude-3.5-Sonnet-20241022)",
+        url: "https://www.autocoderover.net/",
+        score: "46.20%",
+        group: "AutoCodeRover",
+        license: "Source Available"
+      },
+      {
+        name: "Moatless Tools",
+        subtitle: "+ Claude 3.5 Sonnet (20241022)",
+        url: "https://github.com/aorwall/moatless-tools",
+        score: "~45%",
+        group: "Albert Örwall",
+        license: "MIT"
+      },
+      {
         name: "SWE-agent",
-        subtitle: "+ GPT-4",
+        subtitle: "+ Claude 3.5 Sonnet",
         url: "https://swe-agent.com/",
-        score: "12.47%",
-        scoreLite: "18%",
-        status: "Verified",
+        score: "33.60%",
         group: "Princeton NLP",
         license: "MIT"
       },
@@ -64,8 +69,7 @@ export default function Leaderboard(props): JSX.Element {
         <tr>
           <th>Rank</th>
           <th>Agent</th>
-          <th>Score (lite)</th>
-          { showStatus && <th>Status</th> }
+          <th>Score (verified)</th>
           { showGroup && <th>Group</th> }
           { showLicense && <th>License</th> }
         </tr>
@@ -76,14 +80,13 @@ export default function Leaderboard(props): JSX.Element {
               <a href={data.url}>{data.name}</a>
               {data.subtitle && <span><br />{data.subtitle}</span>}
             </td>
-            <td>{data.scoreLite}</td>
-            { showStatus && <td>{data.status}</td> }
+            <td>{data.score}</td>
             { showGroup && <td>{data.group}</td> }
             { showLicense && <td>{data.license}</td> }
           </tr>
         )}
       </table>
-      <p><i>Last updated: 2024-06-25</i></p>
+      <p><i>Last updated: 2024-11-24</i></p>
     </div>
   );
 }

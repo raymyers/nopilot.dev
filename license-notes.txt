@@ -1,0 +1,7 @@
+OpenHands = MIT
+Composio = Source Available (ELv2)
+Agentless = MIT
+Moatless = MIT
+AppMap Navie = Source Available
+AutoCodeRover = Source Available
+SWE-agent = MIT
