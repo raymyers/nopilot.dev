@@ -22,7 +22,6 @@ A lot has happened since March, when Devin's demo sent out a shockwave of excite
 
 * Elements of Devin's announcement were found to be [exaggerated](https://nopilot.dev/blog/dissecting-devin/#point-by-point), especially the claim of [solving an Upwork job](https://www.youtube.com/watch?v=tNmgmwEtoWE)
 * Devin's SWE-bench score of 14% was tied by numerous Open Source agents and eventually doubled
-* OpenHands (formerly OpenDevin) achieved a comparable user experience and state-of-the-art SWE-bench performance
 * Numerous corporate players released similar products, including:
   * GitHub Copilot Workspace
   * Amazon Q Developer
