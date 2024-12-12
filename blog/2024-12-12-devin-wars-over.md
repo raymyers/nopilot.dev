@@ -1,6 +1,6 @@
 ---
 slug: devin-war-over
-title: The Devin Wars are Over
+title: The Devin Wars Are Over
 authors: raymyers
 tags: []
 ---
