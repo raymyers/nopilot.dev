@@ -44,7 +44,7 @@ Nopilot hereby recognizes these contributions which pave the way for the future 
 
 ### 🏆  Overall: OpenHands
 
-All Hands AI handily takes home Best In Show. In addition to creating the most polished user interface, their CodeAct agent is the current SWE-bench leader and has been consistently competive over time.
+All Hands AI handily takes home Best In Show. In addition to creating the most polished user interface, their CodeAct agent is the current SWE-bench leader and has been consistently competive over time. (*Disclosure: I had no relationship with All Hands AI when I wrote this article, or when I [suggested](https://mender.ai/blog/we-can-beat-devin) the parameters of competition in April, but I do have one now.)
 
 Their Open Source project [OpenHands](https://github.com/All-Hands-AI/OpenHands) (formerly OpenDevin) has gathered impressive momentum, and serves as a modular platform for experimenting with new agents. They recently secured [seed funding](https://www.all-hands.dev/blog/press-release-all-hands-announces-5m-to-scale-ai-agent-for-software-development) to continue this work and are currently [hiring](https://allhandsai.applytojob.com/apply).
 
